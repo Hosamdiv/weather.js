@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-box">
+        <input type="text" placeholder="enter city name" spellcheck="false" />
+        <button class="bx-search"><img src="images/search.png" /></button>
+      </div>
+
+
+      <div class="weather-box">
+        <img src="images/rain.png" class="box"/>
+        <h1 class="temp">0<span>°c</span></h1>
+        <h2 class="city description">New York</h2>
+
+        <div class="details weather-details">
+          <div class="col humidity">
+            <img class="bx bx-water" src="images/humidity.png" />
+
+            <div class="text">
+              <p class="humidity info-humidity">0<span>%</span></p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="/images/wind.png" />
+            <div class="text">
+              <p class="wind info-wind">0<span> Km/h</span></p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
